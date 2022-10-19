@@ -1,1 +1,14 @@
-<p>login-form works!</p>
+<div class="login-form-div">
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <span class="p-float-label">
+      <input formControlName="username" id="username" type="text" pInputText />
+      <label for="username">Username</label>
+    </span>
+    <span class="p-float-label">
+      <input formControlName="password" id="password" type="password" pInputText />
+      <label for="password">Password</label>
+    </span>
+
+    <button pButton label="Login" class="p-button-success" type="submit"></button>
+  </form>
+</div>

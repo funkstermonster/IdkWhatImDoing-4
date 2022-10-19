@@ -43,7 +43,10 @@
       "description": "Stronghold",
       "date": "2021-09-08",
       "userId": 1,
-      "subTodoId": [1,2]
+      "subTodoId": [
+        1,
+        2
+      ]
     },
     {
       "id": 6,
@@ -89,6 +92,22 @@
       "date": "2021-11-29",
       "userId": 1,
       "subTodoId": 1
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "example@gmail.com",
+      "username": "admin1",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "example2@gmail.com",
+      "username": "admin2",
+      "password": "admin"
     }
   ]
 }
