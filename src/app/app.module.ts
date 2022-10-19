@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 //Components import
 import { RegisterFormComponent } from './components/navbar/register-form/register-form.component';
@@ -36,7 +38,7 @@ import { TableItemDetailsComponent } from './components/main-container/table/tab
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule,
 
 
     //NG Prime components
