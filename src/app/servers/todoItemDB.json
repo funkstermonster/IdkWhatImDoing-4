@@ -1,0 +1,94 @@
+{
+  "todoItems": [
+    {
+      "id": 1,
+      "title": "Executive Secretary",
+      "progress": null,
+      "description": "Konklab",
+      "date": "2022-01-21",
+      "userId": 1,
+      "subTodoId": null
+    },
+    {
+      "id": 2,
+      "title": "Developer III",
+      "progress": null,
+      "description": "Cookley",
+      "date": "2022-02-13",
+      "userId": 1,
+      "subTodoId": 4
+    },
+    {
+      "id": 3,
+      "title": "Clinical Specialist",
+      "progress": null,
+      "description": "Alpha",
+      "date": "2021-10-29",
+      "userId": 2,
+      "subTodoId": 3
+    },
+    {
+      "id": 4,
+      "title": "Human Resources Assistant I",
+      "progress": null,
+      "description": "Cookley",
+      "date": "2022-07-12",
+      "userId": 2,
+      "subTodoId": 2
+    },
+    {
+      "id": 5,
+      "title": "Help Desk Technician",
+      "progress": null,
+      "description": "Stronghold",
+      "date": "2021-09-08",
+      "userId": 1,
+      "subTodoId": [1,2]
+    },
+    {
+      "id": 6,
+      "title": "Software Engineer I",
+      "progress": null,
+      "description": "Tres-Zap",
+      "date": "2021-11-26",
+      "userId": 2,
+      "subTodoId": null
+    },
+    {
+      "id": 7,
+      "title": "Staff Accountant IV",
+      "progress": null,
+      "description": "Prodder",
+      "date": "2022-06-01",
+      "userId": 1,
+      "subTodoId": 1
+    },
+    {
+      "id": 8,
+      "title": "Software Test Engineer III",
+      "progress": null,
+      "description": "Keylex",
+      "date": "2021-06-01",
+      "userId": 1,
+      "subTodoId": 3
+    },
+    {
+      "id": 9,
+      "title": "Physical Therapy Assistant",
+      "progress": null,
+      "description": "Tresom",
+      "date": "2022-01-18",
+      "userId": 2,
+      "subTodoId": 2
+    },
+    {
+      "id": 10,
+      "title": "Accountant II",
+      "progress": null,
+      "description": "Toughjoyfax",
+      "date": "2021-11-29",
+      "userId": 1,
+      "subTodoId": 1
+    }
+  ]
+}
