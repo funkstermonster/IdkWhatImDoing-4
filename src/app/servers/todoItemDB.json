@@ -3,92 +3,136 @@
     {
       "id": 1,
       "title": "Executive Secretary",
-      "progress": null,
+      "progress": "In progress",
       "description": "Konklab",
       "date": "2022-01-21",
       "userId": 1,
-      "subTodoId": null
+      "subTodoIds": []
     },
     {
       "id": 2,
       "title": "Developer III",
-      "progress": null,
+      "progress": "Open",
       "description": "Cookley",
       "date": "2022-02-13",
       "userId": 1,
-      "subTodoId": 4
+      "subTodoIds": [4]
     },
     {
       "id": 3,
       "title": "Clinical Specialist",
-      "progress": null,
+      "progress": "Done",
       "description": "Alpha",
       "date": "2021-10-29",
       "userId": 2,
-      "subTodoId": 3
+      "subTodoIds": [3]
     },
     {
       "id": 4,
       "title": "Human Resources Assistant I",
-      "progress": null,
+      "progress": "In progress",
       "description": "Cookley",
       "date": "2022-07-12",
       "userId": 2,
-      "subTodoId": 2
+      "subTodoIds": [2]
     },
     {
       "id": 5,
       "title": "Help Desk Technician",
-      "progress": null,
+      "progress": "Done",
       "description": "Stronghold",
       "date": "2021-09-08",
       "userId": 1,
-      "subTodoId": [1,2]
+      "subTodoIds": [1, 2]
     },
     {
       "id": 6,
       "title": "Software Engineer I",
-      "progress": null,
+      "progress": "Done",
       "description": "Tres-Zap",
       "date": "2021-11-26",
       "userId": 2,
-      "subTodoId": null
+      "subTodoIds": []
     },
     {
       "id": 7,
       "title": "Staff Accountant IV",
-      "progress": null,
+      "progress": "Done",
       "description": "Prodder",
       "date": "2022-06-01",
       "userId": 1,
-      "subTodoId": 1
+      "subTodoIds": [1]
     },
     {
       "id": 8,
       "title": "Software Test Engineer III",
-      "progress": null,
+      "progress": "In progress",
       "description": "Keylex",
       "date": "2021-06-01",
       "userId": 1,
-      "subTodoId": 3
+      "subTodoIds": [3]
     },
     {
       "id": 9,
       "title": "Physical Therapy Assistant",
-      "progress": null,
+      "progress": "Done",
       "description": "Tresom",
       "date": "2022-01-18",
       "userId": 2,
-      "subTodoId": 2
+      "subTodoIds": [2]
     },
     {
       "id": 10,
       "title": "Accountant II",
-      "progress": null,
+      "progress": "Open",
       "description": "Toughjoyfax",
       "date": "2021-11-29",
       "userId": 1,
-      "subTodoId": 1
+      "subTodoIds": [1]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "example@gmail.com",
+      "username": "admin1",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "example2@gmail.com",
+      "username": "admin2",
+      "password": "admin"
+    }
+  ],
+
+  "subtodos": [
+    {
+      "id": 1,
+      "title": "Do this subtodo",
+      "status": "Open",
+      "details": "email writing for: boss, friend, colleauge etc.",
+      "creationDate": "2022-09-28",
+      "user": "1"
+    },
+    {
+      "id": 2,
+      "title": "Running is important!",
+      "status": "Done",
+      "details": "run 5 km",
+      "creationDate": "2022-10-03",
+      "user": "2"
+    },
+
+    {
+      "id": 3,
+      "title": "Playing games are so fun",
+      "status": "In progress",
+      "details": "Heimerdinger, Ahri etc. are good characters and I will play with them",
+      "creationDate": "2022-10-06",
+      "user": "1"
     }
   ]
 }

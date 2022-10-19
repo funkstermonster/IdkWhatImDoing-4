@@ -1,1 +1,28 @@
-<p>table works!</p>
+<div class="card">
+  <p-table [value]="todoItems" selectionMode="single" dataKey="code" responsiveLayout="scroll">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>
+          Progress
+          <span>⬆️</span>
+          <span>⬇️</span>
+        </th>
+        <th>Date</th>
+        <th>User id</th>
+        <th>Edit</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-todoItem>
+      <tr (click)="emitSelectedTodo(todoItem)">
+        <td>{{todoItem.id}}</td>
+        <td>{{todoItem.title}}</td>
+        <td>{{todoItem.progress}}</td>
+        <td>{{todoItem.date}}</td>
+        <td>{{todoItem.userId}}</td>
+        <td>✏️</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

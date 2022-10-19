@@ -1,1 +1,9 @@
-<p>table-item-details works!</p>
+<ul *ngIf="todoItem">
+  <li>id: {{todoItem.id}}</li>
+  <li>title {{todoItem.title}}</li>
+  <li>description: {{todoItem.description}}</li>
+  <li>progress: {{todoItem.progress}}</li>
+  <li>date: {{todoItem.date}}</li>
+  <li *ngIf="user">username: {{user.name}}</li>
+  <li *ngIf="user">email: {{user.email}}</li>
+</ul>

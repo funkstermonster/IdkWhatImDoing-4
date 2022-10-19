@@ -1,5 +1,4 @@
 import { ProgressEnum } from "./progress";
-import { User } from "./user";
 
 export interface TodoItem {
   id: number,
@@ -7,6 +6,6 @@ export interface TodoItem {
   progress: ProgressEnum,
   description: string,
   date: string,
-  user_id?: User["id"],
-  subTodos?: TodoItem[],
+  userId?: number,
+  subTodoIds?: number[],
 }

@@ -1,5 +1,5 @@
 export enum ProgressEnum {
-  Open = 'Open',
-  In_Progress = 'In Progress',
-  Done = 'Done',
+  OPEN = 'Open',
+  IN_PROGRESS = 'In Progress',
+  DONE = 'Done',
 }

@@ -23,7 +23,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainContainerComponent } from './components/main-container/main-container.component';
 import { TableComponent } from './components/main-container/table/table.component';
 import { TableItemDetailsComponent } from './components/main-container/table/table-item-details/table-item-details.component';
-
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -47,7 +47,7 @@ import { TableItemDetailsComponent } from './components/main-container/table/tab
     MenubarModule,
     InputTextModule,
     ButtonModule,
-
+    CardModule
 
   ],
   providers: [ConfirmationService],
