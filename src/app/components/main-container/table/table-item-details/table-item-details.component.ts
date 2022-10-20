@@ -16,6 +16,6 @@ export class TableItemDetailsComponent {
   @Input() user?: User;
 
   constructor() {}
-
+  //async subtodo?
 
 }
