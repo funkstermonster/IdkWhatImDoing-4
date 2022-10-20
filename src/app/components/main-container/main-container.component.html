@@ -1,2 +1,3 @@
-<app-table (selectedTodoEmitter)="receiveTodo($event)" (userEmitter)="receiveUser($event)"></app-table>
+<!-- <app-table (selectedTodoEmitter)="receiveTodo($event)" (userEmitter)="receiveUser($event)"></app-table> -->
 <app-table-item-details [todoItem]="emittedTodo" [user]="emittedUser"></app-table-item-details>
+<router-outlet></router-outlet>
