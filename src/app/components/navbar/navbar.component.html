@@ -1,1 +1,33 @@
-<p>navbar works!</p>
+<p-menubar [model]="items">
+  <ng-template pTemplate="start">
+    <h3>Todo Manager</h3>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <button
+      *ngIf="!loginService.loggedIn"
+      pButton
+      type="button"
+      pRipple
+      icon="pi pi-fw pi-sign-in"
+      routerLink="/login"
+      class="p-button-outlined p-button-primary"
+      label="Login"
+    ></button>
+    <button
+      *ngIf="loginService.loggedIn"
+      icon="pi pi-fw pi-sign-out"
+      pButton
+      pRipple
+      type="button"
+      label="Logout"
+      class="p-button-outlined p-button-danger"
+      (click)="loginService.logout()"
+    ></button>
+  </ng-template>
+</p-menubar>
+
+<!--
+<span class="p-float-label">
+  <input id="float-input" type="text" pInputText>
+  <label for="float-input">Username</label>
+</span> -->
