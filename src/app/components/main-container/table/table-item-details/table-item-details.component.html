@@ -1,9 +1,9 @@
-<ul *ngIf="todoItem">
-  <li>id: {{todoItem.id}}</li>
-  <li>title {{todoItem.title}}</li>
-  <li>description: {{todoItem.description}}</li>
-  <li>progress: {{todoItem.progress}}</li>
-  <li>date: {{todoItem.date}}</li>
-  <li *ngIf="user">username: {{user.name}}</li>
-  <li *ngIf="user">email: {{user.email}}</li>
+<ul *ngIf="todoDataService.todoItem">
+  <li>id: {{todoDataService.todoItem.id}}</li>
+  <li>title {{todoDataService.todoItem.title}}</li>
+  <li>description: {{todoDataService.todoItem.description}}</li>
+  <li>progress: {{todoDataService.todoItem.progress}}</li>
+  <li>date: {{todoDataService.todoItem.date}}</li>
+  <li *ngIf="todoDataService.selectedUser">username: {{todoDataService.selectedUser.name}}</li>
+  <li *ngIf="todoDataService.selectedUser">email: {{todoDataService.selectedUser.email}}</li>
 </ul>

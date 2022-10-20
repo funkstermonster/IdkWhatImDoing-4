@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { TodoItem } from 'src/app/interfaces/todo-item';
 import { User } from 'src/app/interfaces/user';
 import { HttpService } from 'src/app/services/http.service';
+import { TodoDataService } from 'src/app/services/todo-data.service';
 
 @Component({
   selector: 'app-table-item-details',
@@ -11,11 +12,9 @@ import { HttpService } from 'src/app/services/http.service';
 })
 export class TableItemDetailsComponent {
 
-  @Input() todoItem?: TodoItem
-
   @Input() user?: User;
 
-  constructor() {}
+  constructor(public todoDataService: TodoDataService) {}
   //async subtodo?
 
 }

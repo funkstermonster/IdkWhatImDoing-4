@@ -15,7 +15,7 @@
       </tr>
     </ng-template>
     <ng-template pTemplate="body" let-todoItem>
-      <tr (click)="emitSelectedTodo(todoItem)">
+      <tr (click)="emitSelectedTodo(todoItem)" routerLink="details">
         <td>{{todoItem.id}}</td>
         <td>{{todoItem.title}}</td>
         <td>{{todoItem.progress}}</td>
@@ -26,3 +26,5 @@
     </ng-template>
   </p-table>
 </div>
+
+<router-outlet></router-outlet>

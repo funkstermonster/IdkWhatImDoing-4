@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TodoItem } from 'src/app/interfaces/todo-item';
 import { User } from 'src/app/interfaces/user';
+import { TodoDataService } from 'src/app/services/todo-data.service';
 
 @Component({
   selector: 'app-main-container',
@@ -11,13 +12,13 @@ export class MainContainerComponent implements OnInit {
 
   emittedTodo?: TodoItem
   emittedUser?: User
-  constructor() { }
+  constructor(private todoDataService: TodoDataService) { }
 
   ngOnInit(): void {
   }
 
   receiveTodo(receivedTodo: any) {
-    this.emittedTodo = receivedTodo
+     this.todoDataService.todoItem = receivedTodo
   }
 
   receiveUser(receivedUser: any) {
